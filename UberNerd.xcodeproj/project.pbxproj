@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4C96111585409700436CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4C96101585409700436CAC /* UIKit.framework */; };
+		4B4C96131585409700436CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4C96121585409700436CAC /* Foundation.framework */; };
+		4B4C96151585409700436CAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4C96141585409700436CAC /* CoreGraphics.framework */; };
+		4B4C961B1585409700436CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C96191585409700436CAC /* InfoPlist.strings */; };
+		4B4C961D1585409700436CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C961C1585409700436CAC /* main.m */; };
+		4B4C96211585409700436CAC /* UberNerdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C96201585409700436CAC /* UberNerdAppDelegate.m */; };
+		4B4C96241585409700436CAC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C96221585409700436CAC /* MainStoryboard.storyboard */; };
+		4B4C96271585409700436CAC /* UberNerdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C96261585409700436CAC /* UberNerdViewController.m */; };
+		4B4C962F158559AF00436CAC /* UberNerdEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C962E158559AF00436CAC /* UberNerdEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B4C960C1585409700436CAC /* UberNerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberNerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4C96101585409700436CAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B4C96121585409700436CAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B4C96141585409700436CAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B4C96181585409700436CAC /* UberNerd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UberNerd-Info.plist"; sourceTree = "<group>"; };
+		4B4C961A1585409700436CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B4C961C1585409700436CAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B4C961E1585409700436CAC /* UberNerd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UberNerd-Prefix.pch"; sourceTree = "<group>"; };
+		4B4C961F1585409700436CAC /* UberNerdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UberNerdAppDelegate.h; sourceTree = "<group>"; };
+		4B4C96201585409700436CAC /* UberNerdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberNerdAppDelegate.m; sourceTree = "<group>"; };
+		4B4C96231585409700436CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4B4C96251585409700436CAC /* UberNerdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UberNerdViewController.h; sourceTree = "<group>"; };
+		4B4C96261585409700436CAC /* UberNerdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberNerdViewController.m; sourceTree = "<group>"; };
+		4B4C962D158559AF00436CAC /* UberNerdEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberNerdEngine.h; sourceTree = "<group>"; };
+		4B4C962E158559AF00436CAC /* UberNerdEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberNerdEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4C96091585409700436CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4C96111585409700436CAC /* UIKit.framework in Frameworks */,
+				4B4C96131585409700436CAC /* Foundation.framework in Frameworks */,
+				4B4C96151585409700436CAC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4C96011585409700436CAC = {
+			isa = PBXGroup;
+			children = (
+				4B4C96161585409700436CAC /* UberNerd */,
+				4B4C960F1585409700436CAC /* Frameworks */,
+				4B4C960D1585409700436CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B4C960D1585409700436CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C960C1585409700436CAC /* UberNerd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B4C960F1585409700436CAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C96101585409700436CAC /* UIKit.framework */,
+				4B4C96121585409700436CAC /* Foundation.framework */,
+				4B4C96141585409700436CAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B4C96161585409700436CAC /* UberNerd */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C961F1585409700436CAC /* UberNerdAppDelegate.h */,
+				4B4C962D158559AF00436CAC /* UberNerdEngine.h */,
+				4B4C962E158559AF00436CAC /* UberNerdEngine.m */,
+				4B4C96201585409700436CAC /* UberNerdAppDelegate.m */,
+				4B4C96221585409700436CAC /* MainStoryboard.storyboard */,
+				4B4C96251585409700436CAC /* UberNerdViewController.h */,
+				4B4C96261585409700436CAC /* UberNerdViewController.m */,
+				4B4C96171585409700436CAC /* Supporting Files */,
+			);
+			path = UberNerd;
+			sourceTree = "<group>";
+		};
+		4B4C96171585409700436CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C96181585409700436CAC /* UberNerd-Info.plist */,
+				4B4C96191585409700436CAC /* InfoPlist.strings */,
+				4B4C961C1585409700436CAC /* main.m */,
+				4B4C961E1585409700436CAC /* UberNerd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4C960B1585409700436CAC /* UberNerd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4C962A1585409700436CAC /* Build configuration list for PBXNativeTarget "UberNerd" */;
+			buildPhases = (
+				4B4C96081585409700436CAC /* Sources */,
+				4B4C96091585409700436CAC /* Frameworks */,
+				4B4C960A1585409700436CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberNerd;
+			productName = UberNerd;
+			productReference = 4B4C960C1585409700436CAC /* UberNerd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B4C96031585409700436CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4B4C96061585409700436CAC /* Build configuration list for PBXProject "UberNerd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B4C96011585409700436CAC;
+			productRefGroup = 4B4C960D1585409700436CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B4C960B1585409700436CAC /* UberNerd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4C960A1585409700436CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4C961B1585409700436CAC /* InfoPlist.strings in Resources */,
+				4B4C96241585409700436CAC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B4C96081585409700436CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4C961D1585409700436CAC /* main.m in Sources */,
+				4B4C96211585409700436CAC /* UberNerdAppDelegate.m in Sources */,
+				4B4C96271585409700436CAC /* UberNerdViewController.m in Sources */,
+				4B4C962F158559AF00436CAC /* UberNerdEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B4C96191585409700436CAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4C961A1585409700436CAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B4C96221585409700436CAC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4C96231585409700436CAC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B4C96281585409700436CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B4C96291585409700436CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B4C962B1585409700436CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UberNerd/UberNerd-Prefix.pch";
+				INFOPLIST_FILE = "UberNerd/UberNerd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B4C962C1585409700436CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UberNerd/UberNerd-Prefix.pch";
+				INFOPLIST_FILE = "UberNerd/UberNerd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4C96061585409700436CAC /* Build configuration list for PBXProject "UberNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4C96281585409700436CAC /* Debug */,
+				4B4C96291585409700436CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4C962A1585409700436CAC /* Build configuration list for PBXNativeTarget "UberNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4C962B1585409700436CAC /* Debug */,
+				4B4C962C1585409700436CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B4C96031585409700436CAC /* Project object */;
+}
